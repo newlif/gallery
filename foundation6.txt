@@ -1,0 +1,33 @@
+//inc.Foundation and other code for site
+$CDN=TRUE
+$if $CDN
+  $JQUERY=https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js
+  $FOUNDATION=https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js
+  $FOUNDCSS=https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.css
+$else
+  $FOUNDATION=bower_components/foundation/js/foundation.min.js
+  $JQUERY=bower_components/jquery/dist/jquery.min.js
+  $FOUNDCSS=css/app.css
+$endif
+
+$html_attr=class="no-js" lang="en"
+$metatag1=charset="utf-8"
+$metatag2=name="viewport" content="width=device-width, initial-scale=1.0"
+$linktag0=rel="stylesheet" href="$FOUNDCSS"
+$script_attr=
+$scripttag0_attr=src="bower_components/modernizr/modernizr.js"
+$scripttag0=
+$postamble=<script src="$JQUERY"></script>\n<script src="$FOUNDATION"></script>\n<script src="js/app.js"></script><script><`$(document).foundation();`></script>
+$imgbase=images/
+$headingbase=2
+
+$ROW=<div class="row">
+$parameters $COL colclass
+$parameters $COL_default $SPACE
+$COL=<div class="column $colclass">
+$END=</div>
+
+$parameters $Id idval // For creating an empty line that just has an id attribute
+$Id=<p id="$idval">&nbsp;</p>
+$parameters $video vid
+

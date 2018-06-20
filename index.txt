@@ -1,0 +1,28 @@
+//.A Walk in the Rouge Valley
+$SITE=http://nl-gallery-oc-andrewfn.193b.starter-ca-central-1.openshiftapps.com
+$IMG=images/rouge-valley
+$metatag3=property="og:title" content="A Walk in the Rouge Valley"
+$metatag5=property="og:image" content="$SITE/$IMG/IMG_20180617_153403.jpg"
+$metatag6=property="og:url" content="$SITE"
+
+$VER=2.83
+$include foundation6.txt
+$style={
+  h2 {color: #888;}
+  h3, h4 {color: #666;}
+  body .panel h2 {color: #777;}
+  body .panel h3, body .panel h4 {color: #555;}
+  body div.row { max-width: 48rem; }
+}
+
+$imgbase=$IMG/
+$ROW $COL
+.$TITLE
+$caption=A cool stream on a hot day
+-$caption
+[[IMG_20180617_153403.jpg $caption]]
+$caption=Cooling off
+-$caption 
+[[IMG_20180617_153352.jpg $caption]]
+$END $END
+
