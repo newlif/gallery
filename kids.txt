@@ -1,0 +1,29 @@
+//.Special kids Sunday at Newlife
+$SITE=http://nl-gallery-oc-andrewfn.193b.starter-ca-central-1.openshiftapps.com/kids.html
+$IMG=images/kids
+$metatag3=property="og:title" content="$TITLE"
+$metatag5=property="og:image" content="$SITE/$IMG/IMG_20180617_153403.jpg"
+$metatag6=property="og:url" content="$SITE"
+
+$VER=2.83
+$include foundation6.txt
+$style={
+  h2 {color: #888;}
+  h3, h4 {color: #666;}
+  body .panel h2 {color: #777;}
+  body .panel h3, body .panel h4 {color: #555;}
+  body div.row { max-width: 48rem; }
+}
+
+$imgbase=$IMG/
+$ROW $COL
+.$TITLE
+$caption=Newlife Kids helping to lead the worship
+-$caption 
+[[worship-1.jpg $caption]]
+[[worship-4.jpg $caption]]
+[[worship-3.jpg $caption]]
+[[worship-2.jpg $caption]]
+
+$END $END
+
