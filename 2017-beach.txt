@@ -17,6 +17,7 @@ $style={
 
 $imgbase=$IMG/
 $ROW $COL
+.$TITLE
 [[IMG_20170715_143134.jpg]]
 [[IMG_20170715_1498235212705103178_n.jpg]]
 [[IMG_20170715_1617022450988313068_n.jpg]]
@@ -27,6 +28,5 @@ $ROW $COL
 [[IMG_20170715_frisbee.jpg]]
 [[IMG_20170715_guys.jpg]]
 [[IMG_20170715_kids.jpg]]
-
 $END $END
 
