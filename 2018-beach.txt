@@ -18,9 +18,29 @@ $style={
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-[[20180721_152458.jpg]]
-$caption=Fun with a frisbee
+$caption=Before the benches were delivered
+-$caption
+[[20180721_122211.jpg $caption]]
+$caption=Firing up the BBQ
+-$caption
+[[20180721_141407.jpg $caption]]
+$caption=We found some matches in the end
+-$caption
+[[20180721_141318.jpg $caption]]
+$caption=Some went off to the beach
+-$caption
+[[20180721_161114.jpg $caption]]
+$caption=Some explored the headland
+-$caption
+[[20180721_152458.jpg $caption]]
+$caption=and some played frisbee
 -$caption
 [[20180721_161041.jpg $caption]]
+$caption=while some just enjoyed the occasion
+-$caption
+[[20180721_141404.jpg  $caption]]
+$caption=Going in for the catch
+-$caption
+[[20180721_161050.jpg $caption]]
 $END $END
 
