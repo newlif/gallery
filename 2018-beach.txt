@@ -19,5 +19,8 @@ $imgbase=$IMG/
 $ROW $COL
 .$TITLE
 [[20180721_152458.jpg]]
+$caption=Fun with a frisbee
+-$caption
+[[20180721_161041.jpg $caption]]
 $END $END
 
