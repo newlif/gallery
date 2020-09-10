@@ -36,6 +36,7 @@ $pic 2020-09-05-tea-99 A tea to remember
 ...Picture Galleries of Other Events
 -[[2017-beach.html Day out at Woodbine Beach]] (2017)
 -[[2018-rouge_valley.html A Walk in the Rouge Valley]] (2018)
+-[[2018-kids.html Special kids Sunday at Newlife]] (2019)
 -[[2019-baptisms.html Baptisms at Cherry Beach]] (2019)
 
 $END $END
