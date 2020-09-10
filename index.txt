@@ -25,7 +25,7 @@ $ROW $COL
 $pic 2020-09-05-tea-0 Coming in
 $pic 2020-09-05-tea-1 Prep
 $pic 2020-09-05-tea-2 Wow, what a selection!
-$pic 2020-09-05-tea-3 Mear;u readu to start
+$pic 2020-09-05-tea-3 Nearly ready to start
 $pic 2020-09-05-tea-4 Was it good?
 $pic 2020-09-05-tea-5 Relaxing together
 $pic 2020-09-05-tea-6 And there's more!
@@ -33,5 +33,11 @@ $pic 2020-09-05-tea-7-above View from above
 $pic 2020-09-05-tea-8 Lots of fun
 $pic 2020-09-05-tea-99 A tea to remember
 
+...Picture Galleries of Other Events
+-[[2017-beach.html Day out at Woodbine Beach]] (2017)
+-[[2018-rouge_valley.html A Walk in the Rouge Valley]] (2018)
+-[[2019-baptisms.html Baptisms at Cherry Beach]] (2019)
+
 $END $END
+
 

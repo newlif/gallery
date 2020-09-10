@@ -1,4 +1,4 @@
-//.Last year's day out at Woodbine Beach
+//.Day out at Woodbine Beach (2017)
 $SITE=http://nl-gallery-oc-andrewfn.193b.starter-ca-central-1.openshiftapps.com
 $IMG=images/2017-woobine
 $metatag3=property="og:title" content=$TITLE
