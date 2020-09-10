@@ -1,6 +1,6 @@
-//.Baptisms at Cherry Beach
+//.Tea at Fountain Gardens
 $SITE=http://http://pics.church.to/2019-baptisms.html
-$IMG=images/2019-baptisms
+$IMG=images/2020-afternoon-tea
 $metatag3=property="og:title" content="Baptisms at Cherry Beach"
 $metatag5=property="og:image" content="$SITE/$IMG/image1.jpg"
 $metatag6=property="og:url" content="$SITE"
@@ -22,17 +22,16 @@ $pic($imgname, line $imgcaption)={
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-$pic image1 Jane
-$pic image2 Jane
-$pic image3 Jane
-$pic image4 Katrina
-$pic image5 Katrina
-$pic image6 Katrina
-$pic Image-br1 Sypriano
-$pic IMG_5293 Jane
-$pic sadegh Sadegh
-$pic IMG_5297 Prayer after the baptism
-$pic IMG_5298 Prayer after the baptism
+$pic 2020-09-05-tea-0 Coming in
+$pic 2020-09-05-tea-1 Prep
+$pic 2020-09-05-tea-2 Wow, what a selection!
+$pic 2020-09-05-tea-3 Mear;u readu to start
+$pic 2020-09-05-tea-4 Was it good?
+$pic 2020-09-05-tea-5 Relaxing together
+$pic 2020-09-05-tea-6 And there's more!
+$pic 2020-09-05-tea-7-above View from above
+$pic 2020-09-05-tea-8 Lots of fun
+$pic 2020-09-05-tea-99 A tea to remember
 
 $END $END
 
