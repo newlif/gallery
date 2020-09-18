@@ -1,8 +1,9 @@
-//.Tea at Fountain Gardens
-$SITE=http://http://pics.church.to/2019-baptisms.html
-$IMG=images/2020-afternoon-tea
-$metatag3=property="og:title" content="Baptisms at Cherry Beach"
-$metatag5=property="og:image" content="$SITE/$IMG/image1.jpg"
+//.Boating, BBQ & Bonfire
+$SITE=http://http://pics.church.to/index.html
+$IMG=images/2020-cath
+$POSTER=cath-11
+$metatag3=property="og:title" content="$TITLE"
+$metatag5=property="og:image" content="$SITE/$IMG/$POSTER.jpg"
 $metatag6=property="og:url" content="$SITE"
 
 $VER=2.90
@@ -22,25 +23,19 @@ $pic($imgname, line $imgcaption)={
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-$pic 2020-09-05-tea-0 Coming in
-$pic 2020-09-05-tea-1 Prep
-$pic 2020-09-05-tea-2 Wow, what a selection!
-$pic 2020-09-05-tea-3 Nearly ready to start
-$pic 2020-09-05-tea-4 Was it good?
-$pic 2020-09-05-tea-5 Relaxing together
-$pic 2020-09-05-tea-6 And there's more!
-$pic 2020-09-05-tea-7-above View from above
-$pic 2020-09-05-tea-8 Lots of fun
-$pic 2020-09-05-tea-99 A tea to remember
+...Day out in St Catharines
+$pic cath-01 Kyaks on the lake
+$pic cath-02 Lake Ontairo
+$pic cath-09 A feast for breakfast
+$pic cath-10 Watching the live stream from NewLife
+$pic cath-11 The riders
+$pic cath-12 Cycling on the trail
+$pic cath-13 Taking a break
+$pic cath-14 Arrived at Lake Ontairo
+$pic cath-15 The end of a fun day
 
 --
-..Picture Galleries of Other Events
-$li_style=font-size:200%; font-weight:bold
--[[2017-beach.html Day out at Woodbine Beach]] (2017)
--[[2018-rouge_valley.html A Walk in the Rouge Valley]] (2018)
--[[2018-kids.html Special kids Sunday at Newlife]] (2019)
--[[2019-baptisms.html Baptisms at Cherry Beach]] (2019)
-
 $END $END
+$include inc-galleries.txt
 
 

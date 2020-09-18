@@ -28,5 +28,7 @@ $ROW $COL
 [[IMG_20170715_frisbee.jpg]]
 [[IMG_20170715_guys.jpg]]
 [[IMG_20170715_kids.jpg]]
+--
 $END $END
+$include inc-galleries.txt
 
