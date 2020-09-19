@@ -1,44 +1,21 @@
 //.A Walk in the Rouge Valley
-$SITE=http://nl-gallery-oc-andrewfn.193b.starter-ca-central-1.openshiftapps.com
+$SITE=http://pics.church.to
 $IMG=images/rouge-valley
-$metatag3=property="og:title" content="A Walk in the Rouge Valley"
-$metatag5=property="og:image" content="$SITE/$IMG/IMG_20180617_153403.jpg"
-$metatag6=property="og:url" content="$SITE"
+$POSTER=$IMG/IMG_20180617_153403.jpg
 
-$VER=2.83
+$VER=2.90
 $include foundation6.txt
-$style={
-  h2 {color: #888;}
-  h3, h4 {color: #666;}
-  body .panel h2 {color: #777;}
-  body .panel h3, body .panel h4 {color: #555;}
-  body div.row { max-width: 48rem; }
-}
-
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-$caption=A cool stream on a hot day
--$caption
-[[IMG_20180617_153403.jpg $caption]]
-$caption=Wondering whether to jump in
--$caption 
-[[IMG_20180617_153352.jpg $caption]]
-$caption=Some of us went in the water
--$caption
-[[IMG_20180617_153413.jpg $caption]]
-$caption=It was a hot day, but lots of shade
--$caption
-[[IMG_20180617_153442.jpg $caption]]
-$caption=The adults stood on the bank, but the children splashed and played (downstream)
--$caption
-[[IMG_20180617_153454.jpg $caption]]
-$caption=Climbing the steps to get back to the BBQ
--$caption
-[[IMG_20180617_153918.jpg $caption]]
-$caption=Nearly there... (Sorry no pictures of the food!)
--$caption
-[[IMG_20180617_153923.jpg $caption]]
+$pic IMG_20180617_153403 A cool stream on a hot day
+$pic IMG_20180617_153352 Wondering whether to jump in
+$pic IMG_20180617_153413 Some of us went in the water
+$pic IMG_20180617_153442 It was a hot day, but lots of shade
+$pic IMG_20180617_153454 The adults stood on the bank, but the children splashed and played (downstream)
+$pic IMG_20180617_153918 Climbing the steps to get back to the BBQ
+$pic IMG_20180617_153923 Nearly there... (Sorry no pictures of the food!)
 
 $END $END
+$include inc-galleries.txt
 

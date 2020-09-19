@@ -1,46 +1,21 @@
 //.Newlife day out at Woodbine Beach
-$SITE=http://nl-gallery-oc-andrewfn.193b.starter-ca-central-1.openshiftapps.com
+$SITE=http://pics.church.to
 $IMG=images/2018-woodbine
-$metatag3=property="og:title" content=$TITLE
-$metatag5=property="og:image" content="$SITE/$IMG/20180721_152458.jpg"
-$metatag6=property="og:url" content="$SITE/2017-beach.html"
+$POSTER=$IMG/20180721_152458.jpg
 
-$VER=2.83
+$VER=2.90
 $include foundation6.txt
-$style={
-  h2 {color: #888;}
-  h3, h4 {color: #666;}
-  body .panel h2 {color: #777;}
-  body .panel h3, body .panel h4 {color: #555;}
-  body div.row { max-width: 48rem; }
-}
-
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-$caption=Before the benches were delivered
--$caption
-[[20180721_122211.jpg $caption]]
-$caption=Firing up the BBQ
--$caption
-[[20180721_141407.jpg $caption]]
-$caption=We found some matches in the end
--$caption
-[[20180721_141318.jpg $caption]]
-$caption=Some went off to the beach
--$caption
-[[20180721_161114.jpg $caption]]
-$caption=Some explored the headland
--$caption
-[[20180721_152458.jpg $caption]]
-$caption=and some played frisbee
--$caption
-[[20180721_161041.jpg $caption]]
-$caption=while some just enjoyed the occasion
--$caption
-[[20180721_141404.jpg  $caption]]
-$caption=Going in for the catch
--$caption
-[[20180721_161050.jpg $caption]]
+$pic 20180721_122211 Before the benches were delivered
+$pic 20180721_141407 Firing up the BBQ
+$pic 20180721_141318 We found some matches in the end
+$pic 20180721_161114 Some went off to the beach
+$pic 20180721_152458 Some explored the headland
+$pic 20180721_161041 and some played frisbee
+$pic 20180721_141404 while some just enjoyed the occasion
+$pic 20180721_161050 Going in for the catch
 $END $END
+$include inc-galleries.txt
 

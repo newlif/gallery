@@ -1,24 +1,10 @@
 //.Baptisms at Cherry Beach
-$SITE=http://http://pics.church.to/2019-baptisms.html
+$SITE=http://pics.church.to
 $IMG=images/2019-baptisms
-$metatag3=property="og:title" content="Baptisms at Cherry Beach"
-$metatag5=property="og:image" content="$SITE/$IMG/image1.jpg"
-$metatag6=property="og:url" content="$SITE"
+$POSTER=$IMG/image1.jpg
 
 $VER=2.90
 $include foundation6.txt
-$style={
-  h2 {color: #888;}
-  h3, h4 {color: #666;}
-  body .panel h2 {color: #777;}
-  body .panel h3, body .panel h4 {color: #555;}
-  body div.row { max-width: 48rem; }
-}
-
-$pic($imgname, line $imgcaption)={
-  -$imgcaption
-  [[$imgname.jpg $imgcaption]]
-}
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
@@ -35,4 +21,5 @@ $pic IMG_5297 Prayer after the baptism
 $pic IMG_5298 Prayer after the baptism
 
 $END $END
+$include inc-galleries.txt
 

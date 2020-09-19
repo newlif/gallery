@@ -1,13 +1,15 @@
 //inc.Foundation and other code for site
-$CDN=TRUE
+$CDN=!TRUE
 $if $CDN
   $JQUERY=https://cdnjs.cloudflare.com/ajax/libs/foundation/6.0.1/js/vendor/jquery.min.js
   $FOUNDATION=https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js
   $FOUNDCSS=https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.css
 $else
-  $FOUNDATION=bower_components/foundation/js/foundation.min.js
-  $JQUERY=bower_components/jquery/dist/jquery.min.js
-  $FOUNDCSS=css/app.css
+  $FOUNDATION=lib/foundation.min.js
+  $JQUERY=lib/jquery.min.js
+  $FOUNDCSS=lib/app.css
+  $MODJS=lib/modernizr.js
+  $APPJS=lib/app.js
 $endif
 
 $html_attr=class="no-js" lang="en"
@@ -15,9 +17,9 @@ $metatag1=charset="utf-8"
 $metatag2=name="viewport" content="width=device-width, initial-scale=1.0"
 $linktag0=rel="stylesheet" href="$FOUNDCSS"
 $script_attr=
-$scripttag0_attr=src="bower_components/modernizr/modernizr.js"
+$scripttag0_attr=src="$MODJS"
 $scripttag0=
-$postamble=<script src="$JQUERY"></script>\n<script src="$FOUNDATION"></script>\n<script src="js/app.js"></script><script><`$(document).foundation();`></script>
+$postamble=<script src="$JQUERY"></script>\n<script src="$FOUNDATION"></script>\n<script src="$APPJS"></script><script><`$(document).foundation();`></script>
 $imgbase=images/
 $headingbase=2
 
@@ -27,7 +29,23 @@ $parameters $COL_default $SPACE
 $COL=<div class="column $colclass">
 $END=</div>
 
-$parameters $Id idval // For creating an empty line that just has an id attribute
-$Id=<p id="$idval">&nbsp;</p>
-$parameters $video vid
+//$parameters $Id idval
+$Id($idval)=<p id="$idval">&nbsp;</p> // For creating an empty line that just has an id attribute
+
+$style={
+  h2 {color: #888;}
+  h3, h4 {color: #666;}
+  body .panel h2 {color: #777;}
+  body .panel h3, body .panel h4 {color: #555;}
+  body div.row { max-width: 48rem; }
+}
+
+$pic($imgname, line $imgcaption)={
+  -$imgcaption
+  [[$imgname.jpg $imgcaption]]
+}
+
+$metatag3=property="og:title" content="$TITLE"
+$metatag5=property="og:image" content="$SITE/$POSTER"
+$metatag6=property="og:url" content="$SITE/$FILE.html"
 

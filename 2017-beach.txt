@@ -1,20 +1,10 @@
 //.Day out at Woodbine Beach (2017)
-$SITE=http://nl-gallery-oc-andrewfn.193b.starter-ca-central-1.openshiftapps.com
+$SITE=http://pics.church.to
 $IMG=images/2017-woobine
-$metatag3=property="og:title" content=$TITLE
-$metatag5=property="og:image" content="$SITE/$IMG/IMG_20170715_7972890372611947607_n.jpg"
-$metatag6=property="og:url" content="$SITE/2017-beach.html"
+$POSTER=$IMG/IMG_20170715_7972890372611947607_n.jpg
 
-$VER=2.83
+$VER=2.90
 $include foundation6.txt
-$style={
-  h2 {color: #888;}
-  h3, h4 {color: #666;}
-  body .panel h2 {color: #777;}
-  body .panel h3, body .panel h4 {color: #555;}
-  body div.row { max-width: 48rem; }
-}
-
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE

@@ -1,24 +1,10 @@
 //.Tea at Fountain Gardens
-$SITE=http://http://pics.church.to/2019-baptisms.html
+$SITE=http://pics.church.to
 $IMG=images/2020-afternoon-tea
-$metatag3=property="og:title" content="Baptisms at Cherry Beach"
-$metatag5=property="og:image" content="$SITE/$IMG/image1.jpg"
-$metatag6=property="og:url" content="$SITE"
+$POSTER=$IMG/2020-09-05-tea-3.jpg
 
 $VER=2.90
 $include foundation6.txt
-$style={
-  h2 {color: #888;}
-  h3, h4 {color: #666;}
-  body .panel h2 {color: #777;}
-  body .panel h3, body .panel h4 {color: #555;}
-  body div.row { max-width: 48rem; }
-}
-
-$pic($imgname, line $imgcaption)={
-  -$imgcaption
-  [[$imgname.jpg $imgcaption]]
-}
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
@@ -33,7 +19,6 @@ $pic 2020-09-05-tea-7-above View from above
 $pic 2020-09-05-tea-8 Lots of fun
 $pic 2020-09-05-tea-99 A tea to remember
 
---
 $END $END
 $include inc-galleries.txt
 

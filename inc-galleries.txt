@@ -10,8 +10,10 @@ $li_style=font-size:200%; font-weight:bold
 -[[2017-beach.html Day out at Woodbine Beach]] (2017)
 -[[2018-rouge_valley.html A Walk in the Rouge Valley]] (2018)
 -[[2018-kids.html Special kids Sunday at Newlife]] (2019)
+-[[2018-beach.html Another day out at Woodbine Beach]] (2018)
 -[[2019-baptisms.html Baptisms at Cherry Beach]] (2019)
--[[2020-afternoon-tea Tea at Fountain Gardens]] (2020)
+-[[2020-afternoon-tea.html Tea at Fountain Gardens]] (2020)
+-[[2020-stcatherines.html Boating, BBQ, Bonfire & Biking]] (2020)
 $END $END
 
 

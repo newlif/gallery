@@ -1,4 +1,4 @@
-//.Boating, BBQ & Bonfire
+//.Boating, BBQ, Bonfire & Biking
 $SITE=http://pics.church.to
 $IMG=images/2020-cath
 $POSTER=$IMG/cath-14.jpg
