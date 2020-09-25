@@ -1,4 +1,5 @@
 //inc.Picture Galleries of Other Events
+$command=writeup -y index.txt
 $style+={
   body .panel h2 {color: #777;}
   body .panel h3, body .panel h4 {color: #555;}
@@ -7,14 +8,30 @@ $div_class1=panel
 $ROW $COL
 ..Picture Galleries of Other Events
 $li_style=font-size:200%; font-weight:bold
--[[2017-beach.html Day out at Woodbine Beach]] (2017)
--[[2018-rouge_valley.html A Walk in the Rouge Valley]] (2018)
--[[2018-kids.html Special kids Sunday at Newlife]] (2019)
--[[2018-beach.html Another day out at Woodbine Beach]] (2018)
--[[2019-baptisms.html Baptisms at Cherry Beach]] (2019)
--[[2020-afternoon-tea.html Tea at Fountain Gardens]] (2020)
--[[2020-stcatherines.html Boating, BBQ, Bonfire & Biking]] (2020)
--[[2020-afternoon-tea2.html Second Afternoon Tea]] (2020)
+$G1=2017-beach
+-[[$G1.html Day out at Woodbine Beach]] (2017)
+$command+=&& writeup -y $G1.txt
+$G2=2018-rouge_valley
+-[[$G2.html A Walk in the Rouge Valley]] (2018)
+$command+=&& writeup -y $G2.txt
+$G3=2018-kids
+-[[$G3.html Special kids Sunday at Newlife]] (2019)
+$command+=&& writeup -y $G3.txt
+$G4=2018-beach
+-[[$G4.html Another day out at Woodbine Beach]] (2018)
+$command+=&& writeup -y $G4.txt
+$G5=2019-baptisms
+-[[$G5.html Baptisms at Cherry Beach]] (2019)
+$command+=&& writeup -y $G5.txt
+$G6=2020-afternoon-tea
+-[[$G6.html Tea at Fountain Gardens]] (2020)
+$command+=&& writeup -y $G6.txt
+$G7=2020-stcatherines
+-[[$G7.html Boating, BBQ, Bonfire & Biking]] (2020)
+$command+=&& writeup -y $G7.txt
+$G8=2020-afternoon-tea2
+-[[$G8.html Second Afternoon Tea]] (2020)
+$command+=&& writeup -y $G8.txt
 $END $END
-
+$extract $command
 

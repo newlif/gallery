@@ -8,19 +8,19 @@ $include foundation6.txt
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-$pic 2020-09-20-tea-01 1 prep
-$pic 2020-09-20-tea-02 2 prep
-$pic 2020-09-20-tea-03 3 tables
-$pic 2020-09-20-tea-04 4 tables
-$pic 2020-09-20-tea-05 5 tables
-$pic 2020-09-20-tea-06 6 tables!
-$pic 2020-09-20-tea-07 7 View from above
-$pic 2020-09-20-tea-09 8 The strwberry cream cake
-$pic 2020-09-20-tea-10 9 Cutting the cake
-$pic 2020-09-20-tea-11 10 eating the cake
-$pic 2020-09-20-tea-12 11 food
-$pic 2020-09-20-tea-14 12 food
-$pic 2020-09-20-tea-15 13 A gift for us all
+$pic 2020-09-20-tea-01 Ready to go
+$pic 2020-09-20-tea-02 Ready for later
+$pic 2020-09-20-tea-02a On the table
+$pic 2020-09-20-tea-02b Mmm! Scones!
+$pic 2020-09-20-tea-03 Enjoying food and company
+$pic 2020-09-20-tea-04 Enjoying food and company
+$pic 2020-09-20-tea-05 Enjoying food and company
+$pic 2020-09-20-tea-06 Enjoying food and company
+$pic 2020-09-20-tea-07 View from above
+$pic 2020-09-20-tea-09 The strwberry cream cake
+$pic 2020-09-20-tea-10 Cutting the cake
+$pic 2020-09-20-tea-11 Eating the cake! Yum
+$pic 2020-09-20-tea-15  A gift for everyone
 
 $END $END
 $include inc-galleries.txt
