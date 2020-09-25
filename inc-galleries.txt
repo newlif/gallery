@@ -14,6 +14,7 @@ $li_style=font-size:200%; font-weight:bold
 -[[2019-baptisms.html Baptisms at Cherry Beach]] (2019)
 -[[2020-afternoon-tea.html Tea at Fountain Gardens]] (2020)
 -[[2020-stcatherines.html Boating, BBQ, Bonfire & Biking]] (2020)
+-[[2020-afternoon-tea2.html Second Afternoon Tea]] (2020)
 $END $END
 
 
