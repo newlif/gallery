@@ -32,6 +32,9 @@ $command+=&& writeup -y $G7.txt
 $G8=2020-afternoon-tea2
 -[[$G8.html Second Afternoon Tea]] (2020)
 $command+=&& writeup -y $G8.txt
+$G9=2022-easter
+-[[$G9.html Easter & Newlife's Birthday celebrations]] (2022)
+$command+=&& writeup -y $G9.txt
 $END $END
 $extract $command
 
