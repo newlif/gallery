@@ -10,7 +10,7 @@ $ROW $COL
 .$TITLE
 $pic 1_130032c After church at the picnic tables
 $pic 2_125148c Laying out the food people brought
-$pic 3_125135c Candle lighting on the birday cake
+$pic 3_125135c Candle lighting on the birthday cake
 $pic 4_125015c Happy 13th birthday Newlife!
 $pic 5_125111c Praise God for a sunny afternoon
 $pic 6_125001c Enjoying food and time together
