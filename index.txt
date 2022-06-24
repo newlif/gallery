@@ -1,22 +1,19 @@
-//.Easter and Newlife's Birthday celebrations
+//.Homegroup BBQ
 $SITE=http://pics.church.to
-$IMG=images/2022-easter
-$POSTER=$IMG/1_130032c.jpg
+$IMG=images/2022-06-bbq
+$POSTER=$IMG/2-bbq-20220621.jpg
 
 $VER=2.90
 $include foundation6.txt
 $imgbase=$IMG/
 $ROW $COL
 .$TITLE
-$pic 1_130032c After church at the picnic tables
-$pic 2_125148c Laying out the food people brought
-$pic 3_125135c Candle lighting on the birthday cake
-$pic 4_125015c Happy 13th birthday Newlife!
-$pic 5_125111c Praise God for a sunny afternoon
-$pic 5a_pm-c   Plenty for everyone
-$pic 6_125001c Enjoying food and time together
-$pic 7_130110c and of course, the cake!
-$pic 8_130054c So good to be face-to-face after all this time!
+$pic 1-bbq-289729427 Both downtown homegroups
+$pic 2-bbq-20220621 Room for all 16 of us!
+$pic 3-bbq-289823581 Amazing ribs and burgers
+$pic 4-bbq-289681016 Lots for everyone
+$pic 5-bbq-289636373 But the main thing was just time together
+$pic 6-bbq-289578899 and it was such a beautiful
 
 $END $END
 $include inc-galleries.txt
