@@ -1,0 +1,20 @@
+//.Homegroup BBQ
+$SITE=http://pics.church.to
+$IMG=images/2022-06-bbq
+$POSTER=$IMG/2-bbq-20220621.jpg
+
+$VER=2.90
+$include foundation6.txt
+$imgbase=$IMG/
+$ROW $COL
+.$TITLE
+$pic 1-bbq-289729427 Both downtown homegroups
+$pic 2-bbq-20220621 Room for all 16 of us!
+$pic 3-bbq-289823581 Amazing ribs and burgers
+$pic 4-bbq-289681016 Lots for everyone
+$pic 5-bbq-289636373 But the main thing was just time together
+$pic 6-bbq-289578899 and it was such a beautiful
+
+$END $END
+$include inc-galleries.txt
+
