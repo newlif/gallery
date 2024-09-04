@@ -21,6 +21,8 @@ $pic k010 or just relaxing
 $pic k011 Beautiful walks
 $pic k012 Singing God's praises together in the sun
 $pic k013 Time to say goodbye to the sunset and come in
+$pic k014 Singing together around the camp fire
+$pic k015 The end of another wonderful day
 $END $END
 $include inc-galleries.txt
 
