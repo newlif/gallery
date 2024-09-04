@@ -1,23 +1,9 @@
-//.Homegroup BBQ
-$SITE=http://pics.church.to
-$IMG=images/2024-koinonia
-$POSTER=$IMG/k001.jpg
+//.Camp Koinonia 2024
+$VER=3.00
 //git add images/2024-koinonia/; git add 2024-koinonia.*
 //have to do a git commit -am update; git push          #from this dir, with username andrewnl
 //ssh ocean "cd /home/test/gallery && git pull"  #check this works
 
 //updated tokens using https://www.geeksforgeeks.org/how-to-authenticate-git-push-with-github-using-a-token/
-
-$VER=2.99
-$include foundation6.txt
-$imgbase=$IMG/
-$ROW $COL
-.$TITLE
-$pic k001 Camp Koinonia!
-$pic k002 Wonderful times gathered with God
-$pic k003 Joy and delight on the lake
-$pic k004 Kayaking
-
-$END $END
-$include inc-galleries.txt
+$include 2024-koinonia.txt
 
