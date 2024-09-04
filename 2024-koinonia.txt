@@ -10,6 +10,8 @@ $ROW $COL
 .$TITLE
 $pic k001 Camp Koinonia!
 $pic k002 Wonderful times gathered with God
+$pic k003 Joy and delight on the lake
+$pic k004 Kayaking
 
 $END $END
 $include inc-galleries.txt
