@@ -19,7 +19,8 @@ $pic k008 A precious time with our friends
 $pic k009 More fun on the lake
 $pic k010 or just relaxing
 $pic k011 Beautiful walks
-//$pic k0
+$pic k012 Singing God's praises together in the sun
+$pic k013 Time to say goodbye to the sunset and come in
 $END $END
 $include inc-galleries.txt
 
