@@ -12,7 +12,14 @@ $pic k001 Camp Koinonia!
 $pic k002 Wonderful times gathered with God
 $pic k003 Joy and delight on the lake
 $pic k004 Kayaking
-
+$pic k005 Fun on the Water
+$pic k006 Kingley's little friend
+$pic k007 Beautiful sunsets over the lake
+$pic k008 A precious time with our friends
+$pic k009 More fun on the lake
+$pic k010 or just relaxing
+$pic k011 Beautiful walks
+//$pic k0
 $END $END
 $include inc-galleries.txt
 
