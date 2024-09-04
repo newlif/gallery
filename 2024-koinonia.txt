@@ -1,0 +1,16 @@
+//.Camp Koinonia 2024
+$SITE=http://pics.church.to
+$IMG=images/2024-koinonia
+$POSTER=$IMG/k001.jpg
+
+$VER=2.99
+$include foundation6.txt
+$imgbase=$IMG/
+$ROW $COL
+.$TITLE
+$pic k001 Camp Koinonia!
+$pic k002 Wonderful times gathered with God
+
+$END $END
+$include inc-galleries.txt
+

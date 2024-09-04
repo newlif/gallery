@@ -2,6 +2,9 @@
 $SITE=http://pics.church.to
 $IMG=images/2022-06-bbq
 $POSTER=$IMG/2-bbq-20220621.jpg
+//git add images/2022-06-bbq/; git add 2022-06-bbq.*
+//have to do a git -am update; git push          #from this dir, with username andrewnl
+//ssh ocean "cd /home/test/gallery && git pull"  #check this works
 
 $VER=2.90
 $include foundation6.txt
